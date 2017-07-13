@@ -1,0 +1,5 @@
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Servicios\bin\Servicios.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Servicios\bin\Servicios.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Servicios\obj\Debug\Servicios.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Servicios\obj\Debug\Servicios.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Servicios\obj\Debug\Servicios.csprojResolveAssemblyReference.cache

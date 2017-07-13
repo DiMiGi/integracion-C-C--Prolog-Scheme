@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetIdUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIdUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNombreUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNombreUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNombreUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNombreUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPassUsuarioNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassUsuarioNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPassUsuarioNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassUsuarioNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPassUsuarioId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassUsuarioId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPassUsuarioId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassUsuarioIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarUsuarioId_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarUsuarioId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarUsuarioNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarUsuarioNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarJugadorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarJugadorId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarJugadorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarJugadorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarJugadorNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarJugadorNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarJugadorNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarJugadorNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddJugador_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddJugador" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddJugador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddJugadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPuntajeJugadorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPuntajeJugadorId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPuntajeJugadorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPuntajeJugadorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPuntajeJugadorNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPuntajeJugadorNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPuntajeJugadorNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPuntajeJugadorNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVidaJugadorNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVidaJugadorNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVidaJugadorNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVidaJugadorNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVidaJugadorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVidaJugadorId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetVidaJugadorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVidaJugadorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIdJugadorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdJugadorId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIdJugadorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdJugadorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIdJugadorNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdJugadorNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIdJugadorNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIdJugadorNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNombreJugador_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNombreJugador" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNombreJugador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNombreJugadorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePuntaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePuntaje" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePuntaje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePuntajeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetIdUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIdUsuario" message="tns:IService1_GetIdUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIdUsuarioResponse" message="tns:IService1_GetIdUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNombreUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNombreUsuario" message="tns:IService1_GetNombreUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNombreUsuarioResponse" message="tns:IService1_GetNombreUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPassUsuarioNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPassUsuarioNombre" message="tns:IService1_GetPassUsuarioNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPassUsuarioNombreResponse" message="tns:IService1_GetPassUsuarioNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPassUsuarioId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPassUsuarioId" message="tns:IService1_GetPassUsuarioId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPassUsuarioIdResponse" message="tns:IService1_GetPassUsuarioId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddUsuario" message="tns:IService1_AddUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddUsuarioResponse" message="tns:IService1_AddUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarUsuarioId" message="tns:IService1_EliminarUsuarioId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarUsuarioIdResponse" message="tns:IService1_EliminarUsuarioId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarUsuarioNombre" message="tns:IService1_EliminarUsuarioNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarUsuarioNombreResponse" message="tns:IService1_EliminarUsuarioNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarJugadorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarJugadorId" message="tns:IService1_EliminarJugadorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarJugadorIdResponse" message="tns:IService1_EliminarJugadorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarJugadorNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarJugadorNombre" message="tns:IService1_EliminarJugadorNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarJugadorNombreResponse" message="tns:IService1_EliminarJugadorNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddJugador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddJugador" message="tns:IService1_AddJugador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddJugadorResponse" message="tns:IService1_AddJugador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPuntajeJugadorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPuntajeJugadorId" message="tns:IService1_GetPuntajeJugadorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPuntajeJugadorIdResponse" message="tns:IService1_GetPuntajeJugadorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPuntajeJugadorNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPuntajeJugadorNombre" message="tns:IService1_GetPuntajeJugadorNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPuntajeJugadorNombreResponse" message="tns:IService1_GetPuntajeJugadorNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVidaJugadorNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetVidaJugadorNombre" message="tns:IService1_GetVidaJugadorNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetVidaJugadorNombreResponse" message="tns:IService1_GetVidaJugadorNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVidaJugadorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetVidaJugadorId" message="tns:IService1_GetVidaJugadorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetVidaJugadorIdResponse" message="tns:IService1_GetVidaJugadorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIdJugadorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIdJugadorId" message="tns:IService1_GetIdJugadorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIdJugadorIdResponse" message="tns:IService1_GetIdJugadorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIdJugadorNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIdJugadorNombre" message="tns:IService1_GetIdJugadorNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIdJugadorNombreResponse" message="tns:IService1_GetIdJugadorNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNombreJugador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNombreJugador" message="tns:IService1_GetNombreJugador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNombreJugadorResponse" message="tns:IService1_GetNombreJugador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePuntaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdatePuntaje" message="tns:IService1_UpdatePuntaje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatePuntajeResponse" message="tns:IService1_UpdatePuntaje_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetIdUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIdUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNombreUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNombreUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPassUsuarioNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPassUsuarioNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPassUsuarioId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPassUsuarioId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioId">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarUsuarioId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarUsuarioNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarJugadorId">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarJugadorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarJugadorNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarJugadorNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddJugador">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddJugador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPuntajeJugadorId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPuntajeJugadorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPuntajeJugadorNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPuntajeJugadorNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVidaJugadorNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetVidaJugadorNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVidaJugadorId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetVidaJugadorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdJugadorId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIdJugadorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIdJugadorNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIdJugadorNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNombreJugador">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNombreJugador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePuntaje">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdatePuntaje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/ClassLibraryServicios/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

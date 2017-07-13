@@ -1,0 +1,6 @@
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\bin\Release\ClassLibraryServicios.dll.config
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\bin\Release\ClassLibraryServicios.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\bin\Release\ClassLibraryServicios.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\obj\Release\ClassLibraryServicios.csprojResolveAssemblyReference.cache
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\obj\Release\ClassLibraryServicios.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryServicios\obj\Release\ClassLibraryServicios.pdb

@@ -1,0 +1,7 @@
+Height 600
+Width 800
+Frecuencia 60
+Arriba W
+Abajo S
+Izquierda A
+Derecha D

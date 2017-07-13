@@ -1,0 +1,5 @@
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryProlog\bin\Release\ClassLybraryProlog.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryProlog\bin\Release\ClassLybraryProlog.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryProlog\obj\Release\ClassLybraryProlog.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryProlog\obj\Release\ClassLybraryProlog.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryProlog\bin\Release\Psharp.dll

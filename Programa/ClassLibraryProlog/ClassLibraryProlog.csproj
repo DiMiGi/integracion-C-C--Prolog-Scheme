@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF8DE0A5-8CE5-42C9-B311-047D7BA6D7BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibraryProlog</RootNamespace>
+    <AssemblyName>ClassLybraryProlog</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Psharp">
+      <HintPath>lib\Psharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Laberinto.cs" />
+    <Compile Include="PrologMain.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__0_2.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__10_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__11_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__12_2.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__13_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__14_7.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__15_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__16_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__17_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__18_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__19_3.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__1_9.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__20_7.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__21_5.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__22_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__23_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__24_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__25_1.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__26_3.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__27_3.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__28_2.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__29_4.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__2_4.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__3_3.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__4_3.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__5_2.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__6_9.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__7_2.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__8_4.cs" />
+    <Compile Include="PrologSource\%27dollar_dummy__189511930__9_2.cs" />
+    <Compile Include="PrologSource\Adyacente_2.cs" />
+    <Compile Include="PrologSource\Agregar Adyacentes_2.cs" />
+    <Compile Include="PrologSource\Agregar Adyacentes_3.cs" />
+    <Compile Include="PrologSource\Agregar Adyacente_3.cs" />
+    <Compile Include="PrologSource\Buscar Repetidos_1.cs" />
+    <Compile Include="PrologSource\Calcular_ Cant_ Muros_2.cs" />
+    <Compile Include="PrologSource\Calcular_ Cant_ Trofeos_3.cs" />
+    <Compile Include="PrologSource\Concatenar_ Arreglos_3.cs" />
+    <Compile Include="PrologSource\Concatenar_ Valor_3.cs" />
+    <Compile Include="PrologSource\Contar_2.cs" />
+    <Compile Include="PrologSource\Contiene_2.cs" />
+    <Compile Include="PrologSource\Crear Camino Aux_4.cs" />
+    <Compile Include="PrologSource\Crear Camino_5.cs" />
+    <Compile Include="PrologSource\Crear Muros_2.cs" />
+    <Compile Include="PrologSource\Crear Muro_3.cs" />
+    <Compile Include="PrologSource\Crear Trofeos_3.cs" />
+    <Compile Include="PrologSource\Crear Trofeo_4.cs" />
+    <Compile Include="PrologSource\Elem In Lista_2.cs" />
+    <Compile Include="PrologSource\Esta_ Contenido_2.cs" />
+    <Compile Include="PrologSource\Esta_ En_ Bordes_3.cs" />
+    <Compile Include="PrologSource\Es_ Muro_1.cs" />
+    <Compile Include="PrologSource\Es_ Trofeo_1.cs" />
+    <Compile Include="PrologSource\Existe_ Camino_1.cs" />
+    <Compile Include="PrologSource\Generar Camino_4.cs" />
+    <Compile Include="PrologSource\Generar Camino_5.cs" />
+    <Compile Include="PrologSource\Get_ Final_2.cs" />
+    <Compile Include="PrologSource\Get_ Inicio_2.cs" />
+    <Compile Include="PrologSource\Get_ Lab_2.cs" />
+    <Compile Include="PrologSource\Get_ Trof_2.cs" />
+    <Compile Include="PrologSource\Get_ X_2.cs" />
+    <Compile Include="PrologSource\Get_ Y_2.cs" />
+    <Compile Include="PrologSource\Igual_2.cs" />
+    <Compile Include="PrologSource\Laberinto_5.cs" />
+    <Compile Include="PrologSource\No_ Pueden_ Ser_ Muros_4.cs" />
+    <Compile Include="PrologSource\No_ Puede_ Ser_ Muro_1.cs" />
+    <Compile Include="PrologSource\Obtener Arreglo Trofeo Aux_2.cs" />
+    <Compile Include="PrologSource\Obtener Arreglo Trofeos_1.cs" />
+    <Compile Include="PrologSource\Obtener_ Cabeza_2.cs" />
+    <Compile Include="PrologSource\Pertenece_ Borde_ Lateral_4.cs" />
+    <Compile Include="PrologSource\Random_3.cs" />
+    <Compile Include="PrologSource\Verificar_ Adyacencias_2.cs" />
+    <Compile Include="PrologSource\Verificar_ Laberinto_1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

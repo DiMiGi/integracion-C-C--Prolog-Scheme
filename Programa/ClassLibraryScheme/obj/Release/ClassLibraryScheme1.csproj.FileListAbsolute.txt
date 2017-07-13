@@ -1,0 +1,8 @@
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\bin\Release\ClassLibraryScheme1.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\bin\Release\ClassLibraryScheme1.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\bin\Release\IronScheme.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\obj\Release\ClassLibraryScheme1.csprojResolveAssemblyReference.cache
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\obj\Release\ClassLibraryScheme1.dll
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\obj\Release\ClassLibraryScheme1.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\bin\Release\SchemeLibraries\laberinto.sls
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\ClassLibraryScheme1\bin\Release\SchemeLibraries\punto.sls

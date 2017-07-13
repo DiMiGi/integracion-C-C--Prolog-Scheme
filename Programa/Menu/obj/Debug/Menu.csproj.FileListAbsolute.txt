@@ -1,0 +1,15 @@
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\Menu\bin\Debug\Menu.exe.config
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\bin\Debug\Menu.exe.config
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\bin\Debug\Menu.exe
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\bin\Debug\Menu.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.Properties.Resources.resources
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.csproj.GenerateResource.Cache
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.exe
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.pdb
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\bin\Debug\Properties\Resources.resx
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\bin\Debug\Properties\Resources.Designer.cs
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.Vistas.CargarJuegoVista.resources
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.Vistas.ConfiguracionesVista.resources
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.Vistas.NuevoJuegoVista.resources
+U:\Universidad\1-2015\PARADIGMAS (L)\C#\Programa\Menu\obj\Debug\Menu.Vistas.MainProgramVista.resources
